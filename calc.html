@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Escolha a opção desejada:</h1>
+    <br>
+    <form action="calc.php" method="post">
+        <fieldset>
+            <label for="">Opção</label>
+            <div>
+                <input type="radio" name="op" id="soma" value="1">
+                <label for="soma">Soma</label>
+                <input type="radio" name="op" id="sub" value="2">
+                <label for="sub">Subtração</label>
+                <input type="radio" name="op" id="mult" value="3">
+                <label for="mult">Multiplicação</label>
+                <input type="radio" name="op" id="divi" value="4">
+                <label for="divi">Divisão</label>
+            </div>
+            <label for="nb1">número 1:</label>
+            <input type="text" name="nb1" id="nb1">
+            <br>
+            <label for="nb2">número 2:</label>
+            <input type="text" name="nb2" id="nb2">
+        </fieldset>
+        <button type="submit">Calcular</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
