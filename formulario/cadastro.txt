@@ -2,3 +2,5 @@ Nome: Kaue | Email: a |
         Idade: 17 | Curso: php
 Nome: Kaue | Email: a |
         Idade: 17 | Curso: php
+Nome: kaue | Email: aa |
+        Idade: 17 | Curso: js
